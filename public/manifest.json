@@ -1,5 +1,5 @@
 {
-    "id": "/umurimo-rwanda-platform/",
+  "id": "/umurimo-rwanda-platform/",
   "name": "Umurimo Rwanda - Daily Earnings & Micro-Tasks",
   "short_name": "Umurimo RW",
   "description": "Rwanda online platform for micro-tasks, daily profit products, MTN & Airtel MoMo deposits, and fast withdrawals.",
@@ -23,33 +23,47 @@
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-maskable-192.png",
+      "src": "/umurimo-rwanda-platform/icons/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-maskable-512.png",
+      "src": "/umurimo-rwanda-platform/icons/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "categories": ["finance", "productivity", "business"],
+  "categories": [
+    "finance",
+    "productivity",
+    "business"
+  ],
   "shortcuts": [
     {
       "name": "Daily Tasks",
       "short_name": "Tasks",
       "description": "Browse and complete micro-tasks",
-      "url": "/?tab=tasks",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/umurimo-rwanda-platform/?tab=tasks",
+      "icons": [
+        {
+          "src": "/umurimo-rwanda-platform/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Daily Profits",
       "short_name": "Profits",
       "description": "View daily profit products",
-      "url": "/?tab=products",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/umurimo-rwanda-platform/?tab=products",
+      "icons": [
+        {
+          "src": "/umurimo-rwanda-platform/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
